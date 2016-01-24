@@ -21,7 +21,7 @@
 html {
 	width: 100%;
 	height: 100%;
-	background-color: #394264;
+	background-color: #983D0E;
 }
 
 body {
@@ -30,11 +30,11 @@ body {
 	height: 96%;
 	margin: 0.8em auto;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	background-color: #1F253D;
+	background-color: #371212;
 	text-align: center;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
 	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
@@ -86,12 +86,13 @@ h1 {
 
 }
 
+
 /*style for hidden modal*/
 .overlay {
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	background: #e74c3c;
+	background: #668DA8;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -102,7 +103,7 @@ h1 {
 
 .content {
 	color: #fff;
-	background: #e74c3c;
+	background: #668DA8;
 	position: relative;
 	height: auto;
 	width: 600px;
@@ -209,8 +210,8 @@ h1 {
 }
 
 h2 {
-	margin: 0 auto;	
-	background: #cc324b;
+	margin: 0 auto;
+	background: #6b6b6b;
 	padding: 1em 0.4em;
 	font-size: 1.5em;
 	font-weight: 400;
@@ -230,7 +231,14 @@ h2 {
 #count {
 	color: #f39c12;
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 1.1em;
+}
+
+#newFdbk {
+	font-size: 1.2em;
+	padding: 0em auto;
+	margin: 0.8em auto;
+	color: #fff;
 }
 
 input {
@@ -297,9 +305,9 @@ input:focus {
 }
 
 ul.guessBox {
-	height: 80px;
+	height: 93px;
 	margin: 10px auto 0;
-	background: #11a8ab;
+	background: #999999;
 	padding: 0.5em;
 	display: block;
 	line-height: 2em;
