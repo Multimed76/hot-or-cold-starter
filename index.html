@@ -31,6 +31,7 @@
 							<li>1. I pick a <strong>random secret number</strong> between 1 to 100 and keep it hidden.</li>
 							<li>2. You need to <strong>guess</strong> until you can find the hidden secret number.</li>
 							<li>3. You will <strong>get feedback</strong> on how close ("hot") or far ("cold") your guess is.</li>
+                            
 						</ul>
 						<p>So, Are you ready?</p>
 						<a class="close" href="#">Got It!</a>
@@ -42,11 +43,11 @@
 			<h1>HOT or COLD</h1>
 
 		</header>
-
 		<section class="game"> <!-- Guessing Section -->
 			
 			<h2 id="feedback">Make your Guess!</h2>
-
+            <h3 id="newFdbk"> </h3>
+			
 			<form>
 				<input type="text" name="userGuess" id="userGuess" class="text" maxlength="3" autocomplete="off" placeholder="Enter your Guess" required/>
       			<input type="submit" id="guessButton" class="button" name="submit" value="Guess"/>
